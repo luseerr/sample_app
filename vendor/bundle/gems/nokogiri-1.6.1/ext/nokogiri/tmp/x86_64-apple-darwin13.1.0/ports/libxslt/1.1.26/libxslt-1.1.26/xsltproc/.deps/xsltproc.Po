@@ -1,0 +1,287 @@
+xsltproc.o: xsltproc.c ../libxslt/libxslt.h ../config.h \
+  ../libxslt/xsltconfig.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlversion.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlexports.h \
+  ../libexslt/exslt.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/tree.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_common.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlstring.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/include/stdarg.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlregexp.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/dict.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlmemory.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/threads.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/globals.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/parser.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/hash.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/valid.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlerror.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/list.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlautomata.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/entities.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/encoding.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/iconv.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlIO.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/SAX.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/wait.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/alloca.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/types.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xlink.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/SAX2.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xpath.h \
+  ../libexslt/exsltexports.h ../libexslt/exsltconfig.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/strings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/stat.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/select.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/debugXML.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/HTMLtree.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/HTMLparser.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xinclude.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/catalog.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/parserInternals.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/chvalid.h \
+  /Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/uri.h \
+  ../libxslt/xslt.h ../libxslt/xsltexports.h ../libxslt/xsltInternals.h \
+  ../libxslt/xsltlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_time.h \
+  ../libxslt/numbersInternals.h ../libxslt/transform.h \
+  ../libxslt/xsltutils.h ../libxslt/extensions.h ../libxslt/security.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/timeb.h
+
+../libxslt/libxslt.h:
+
+../config.h:
+
+../libxslt/xsltconfig.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlversion.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlexports.h:
+
+../libexslt/exslt.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/tree.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/cdefs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_posix_availability.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/Availability.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/AvailabilityInternal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_common.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlstring.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/include/stdarg.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlregexp.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/dict.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlmemory.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/threads.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/globals.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/parser.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/hash.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/valid.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlerror.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/list.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlautomata.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/entities.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/encoding.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/iconv.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xmlIO.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/SAX.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/wait.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/signal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/appleapiopts.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/signal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/signal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/i386/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/resource.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/libkern/_OSByteOrder.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/libkern/i386/_OSByteOrder.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/alloca.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/types.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xlink.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/SAX2.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xpath.h:
+
+../libexslt/exsltexports.h:
+
+../libexslt/exsltconfig.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/strings.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_string.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/time.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/time.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_select.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/stat.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/unistd.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/unistd.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/select.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/debugXML.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/HTMLtree.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/HTMLparser.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/xinclude.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/catalog.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/parserInternals.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/chvalid.h:
+
+/Users/piotrbrzezinski/www/rails_projects/sample_app/vendor/bundle/gems/nokogiri-1.6.1/ports/x86_64-apple-darwin13.1.0/libxml2/2.8.0/include/libxml2/libxml/uri.h:
+
+../libxslt/xslt.h:
+
+../libxslt/xsltexports.h:
+
+../libxslt/xsltInternals.h:
+
+../libxslt/xsltlocale.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/locale.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_locale.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_xlocale.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_stdio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_stdlib.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_string.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/xlocale/_time.h:
+
+../libxslt/numbersInternals.h:
+
+../libxslt/transform.h:
+
+../libxslt/xsltutils.h:
+
+../libxslt/extensions.h:
+
+../libxslt/security.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/timeb.h:
